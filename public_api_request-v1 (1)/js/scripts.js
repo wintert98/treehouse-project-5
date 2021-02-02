@@ -1,6 +1,5 @@
 const randomUser = 'https://randomuser.me/api/?results=12'
 const gallery = document.getElementById('gallery');
-const modal = document.querySelector('modal-container');
 const cards = document.getElementsByClassName('card');
 let people = []
 
@@ -24,7 +23,7 @@ async function getRandomProfile(url) {
 // Generate the markup for each gallery card profile and inserts onto the Dom
 function galleryHTML(data) {
   let galleryHtml = ''
-    for(let i = 0; i <data.length; i++) {
+    for(let i = 0; i < data.length; i++) {
        galleryHtml += `
         <div class="card" "child${i}">
           <div class="card-img-container">
