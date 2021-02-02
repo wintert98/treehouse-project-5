@@ -77,7 +77,7 @@ header h1 {
     margin: auto;
 }
   
-.card {
+.card  {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
