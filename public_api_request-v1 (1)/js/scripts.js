@@ -70,7 +70,7 @@ const month = data.slice(5, 7);
  return birthday
 }
 
-  // Generate the markup for each gallery profile
+  // Generate the markup for each gallery modal profile
 function generateModal(data) {
   let modalHtml = ''
          const cell = cellConvert(data.cell);
